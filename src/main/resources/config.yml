@@ -1,0 +1,29 @@
+database:
+  host: localhost
+  port: 3306
+  name: wizmmsg
+  user: root
+  password: ""
+  table: wizmmsg_sessions
+
+messages:
+  from: "&7(A %target%) &f%message%"
+  to: "&7(Da %sender%) &f%message%"
+  blocked: "&cQuesto giocatore non accetta messaggi."
+  self-blocked: "&cHai disattivato i messaggi. Usa /msg on per riattivare."
+  target-blocked-you: "&cNon puoi inviare messaggi a questo giocatore."
+  no-reply-target: "&cNessun messaggio inviato di recente."
+  player-not-found: "&cGiocatore non trovato."
+  reloaded: "&cConfigurazione ricaricata."
+  toggled-on: "&cHai attivato i messaggi privati."
+  toggled-off: "&cHai disattivato i messaggi privati."
+  no-permission: "&cNon hai il permesso."
+  usage-msg: "&cUso: /msg <giocatore> <messaggio>"
+  usage-r: "&cUso: /r <messaggio>"
+  usage-toggle: "&cUso: /msg on|off"
+  self-message: "&cNon puoi mandare un messaggio a te stesso."
+
+settings:
+  proxy-channel: BungeeCord
+  proxy-detect-timeout-ms: 2000
+  auto-detect-proxy: true

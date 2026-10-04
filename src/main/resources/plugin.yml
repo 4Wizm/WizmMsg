@@ -1,0 +1,21 @@
+name: WizmMsg
+version: 1.0
+main: com.wizm.msg.WizmMsg
+author: 4wizm
+api-version: 1.13
+commands:
+  msg:
+    description: Invia un messaggio privato
+    usage: /msg <giocatore|on|off|reload> [messaggio]
+    permission: wizmmsg.use.msg
+  r:
+    description: Rispondi all ultimo messaggio
+    usage: /r <messaggio>
+    permission: wizmmsg.use.msg
+permissions:
+  wizmmsg.use.msg:
+    default: true
+  wizmmsg.use.lockmessage:
+    default: true
+  wizmmsg.use.reload:
+    default: op
